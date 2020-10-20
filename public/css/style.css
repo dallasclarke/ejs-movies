@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+#movie-poster {
+    display: flex;
+    align-items: center;
+}
+
+#movie-title {
+    text-align: center;
+    font-size: 68px;
+}
+
+#description {
+    width: 50%;
+    border: solid;
+    border-color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}

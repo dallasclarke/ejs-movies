@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Movies</title>
+</head>
+<body>
+    <h1 id="header">Now Playing</h1>
+
+    <div id="container">
+        <% result.forEach(movie => { %>
+            <p id="movie-title"><%= movie.title %> </p>
+            
+            <div id="movie-poster">
+                <img id="image" src=<%= `https://image.tmdb.org/t/p/w342/${movie.poster_path}` %>  alt="poster">
+            </div>
+            <p id="description"><%= movie.overview %> </p>
+        <% }) %>
+    </div>
+        
+
+
+</body>
+</html>

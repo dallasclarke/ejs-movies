@@ -1,0 +1,27 @@
+{
+  "name": "ejs-movies",
+  "version": "1.0.0",
+  "description": "Create a project called ejs-movies.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dallasclarke/ejs-movies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dallasclarke/ejs-movies/issues"
+  },
+  "homepage": "https://github.com/dallasclarke/ejs-movies#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
